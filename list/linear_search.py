@@ -4,5 +4,12 @@ def linear_search(list :any ,number:any):
             return i
     return -1
 
+def list_sum(list :int):
+    sum = 0
+    for i in list:
+        sum += i
+    return sum
+
 if __name__ == "__main__":
     print(linear_search(['rasd','234','ram','nis'],'nis'))
+    print(list_sum([1,24,534,654,75]))
