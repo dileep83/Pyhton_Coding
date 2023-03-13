@@ -1,3 +1,4 @@
+from twosum import solution
 def linear_search(list :any ,number:any):
     for i in range(len(list)):
         if list[i] == number:
@@ -13,3 +14,4 @@ def list_sum(list :int):
 if __name__ == "__main__":
     print(linear_search(['rasd','234','ram','nis'],'nis'))
     print(list_sum([1,24,534,654,75]))
+    
