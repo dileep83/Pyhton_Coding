@@ -1,3 +1,5 @@
+import time
+
 class solution(object):
     def __init__(self,nums,target):
         self.nums=nums
@@ -23,7 +25,9 @@ class solution(object):
         
 if __name__=="__main__":              
     s = solution([1,23,236,45,37,456,3756,567,8,5,2,567],7)
+    
     print(s.twoSum2(s.nums,s.target))
+    
     
     
     

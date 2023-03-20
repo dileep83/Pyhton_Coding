@@ -15,3 +15,4 @@ if __name__ == "__main__":
     print(linear_search(['rasd','234','ram','nis'],'nis'))
     print(list_sum([1,24,534,654,75]))
     
+    
